@@ -1,3 +1,7 @@
+"""Visualization service.
+
+TODO: Add further documentation specfic to your application.
+"""
 from fastapi import APIRouter, HTTPException
 import pandas as pd
 import plotly.express as px

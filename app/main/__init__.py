@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """Main application package.
 
 Contents
@@ -6,7 +7,6 @@ Contents
 main/predict.py     prediction service
 main/viz.py         visualization service
 """
-
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
