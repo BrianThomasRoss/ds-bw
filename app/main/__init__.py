@@ -1,8 +1,17 @@
+# -*- coding: utf-8 -*-
+"""Main application package.
+
+Contents
+--------
+
+main/predict.py     prediction service
+main/viz.py         visualization service
+"""
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import uvicorn
 
-from app.api import predict, viz
+from app.main import predict, viz
 
 app = FastAPI(
     title='DS API',

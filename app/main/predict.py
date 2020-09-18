@@ -1,3 +1,7 @@
+"""Prediction service.
+
+TODO: Add further documentation specific to your application
+"""
 import logging
 import random
 
